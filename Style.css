@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Gabriela', serif;
+    font-family: 'Prata', serif;
+    background-color: white;
+}
+
+.content{
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+/* Navigation bar */
+.navbar{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    padding: 10px 0;
+    background:#d0828b;
+    transition: all 0.3s ease;
+}
+.navbar .content{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: #fcf1ef;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Gabriela', serif;
+}
+
+.navbar .menu-list{
+    display: inline-flex;
+}
+
+.menu-list li {
+    list-style: none
+}
+
+.menu-list li a{
+    color:#faf3f4;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.icon{
+    color: black;
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.icon.cancel-btn{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.menu-list li a:hover{
+    color:#8c0010;
+} 
+
+/* Sections */
+.banner{
+    height: 100vh;
+    background: white no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}   
+
+.section {
+    padding: 20%;
+    text-align: center;
+}
+
+/* My Hobbies Section*/
+#section3{
+    padding: 50px,0;
+}
+
+.hobbies .subtitle{
+    font-size: 70px;
+    font-weight: 700;
+    color: #1e2224;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-family: 'Gabriela', serif;
+}
+
+.hobb-list{
+    display:grid;
+    grid-template-columns: repeat(2, minmax(40px, 4fr));
+    grid-gap:20px;
+    margin-top: 30px;
+    justify-items: center;
+    align-items: center;
+}
+
+.hobb{
+    width: 450px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hobb img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(252, 252, 252, 0.6),#fcf1ef);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 1px;
+    text-align: center;
+    font-size: 11px;
+    color: #f3e9d8;
+    transition: height 0.5s;
+}
+
+.layer h2{
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.layer p{
+    color: #ba4855;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Gabriela', serif;
+    font-size: 15px;
+}
+
+.layer a{
+    margin-top: 20px;
+    color:#82313b;
+    text-decoration: none;
+    font-size: 18px;
+    line-height:60px;
+    background:#fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.hobb:hover img{
+    transform: scale(1.1);
+}
+
+.hobb:hover .layer{
+    height: 100%;
+}
+
+/*FOOTER*/
+.footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fcf1ef;
+    color: black;
+    text-align: center;
+    margin-top: 1%;
+  }
+
+  .footer  p{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Prata', serif;
+  }
