@@ -199,3 +199,36 @@ body {
     justify-content: center;
     font-family: 'Prata', serif;
   }
+
+  /* End of Mary's Stylesheet */
+
+
+
+  /* Start of Masayuki's Stylesheet */
+  
+  /* Navigation bar */
+.Yokaiinavbar{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    padding: 10px 0;
+    background:#302f2f;
+    transition: all 0.3s ease;
+}
+.Yokaiinavbar .content{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.Yokaiinavbar .logo a{
+    color: #fcf1ef;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Gabriela', serif;
+}
+
+.Yokaiinavbar .menu-list{
+    display: inline-flex;
+}
