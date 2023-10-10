@@ -1,19 +1,25 @@
-/* Media query for responsive navigation bar */
-@media screen and (max-width: 520px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .menu-list {
-        margin-top: 20px;
-    }
-
-    .menu-list li {
-        margin: 10px 0;
+/*FOR BANNER RESPONSIVENESS*/
+@media(max-width:515px){
+    .banner{
+        background: url(Images/phone.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
     }
 }
 
-@media (max-width: 520px){
+/*FOR NAVBAR RESPONSIVENESS*/
+@media(max-width:660px){
+    .container {
+        flex-direction: column;
+    }
+    .menu-list {
+        margin-top: 20px;
+    }
+    .menu-list li {
+        margin: 10px 0;
+    }
     body.disabledScroll{
         overflow: hidden;
     }
@@ -45,5 +51,214 @@
     }
     .navbar .menu-list li a{
         font-size: 23px;
+    }
+}
+
+/*FOR EXTRA SMALL SCREENS*/
+@media(min-width:200px){
+    .navbar .logo a{
+        color: #fcf1ef;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        font-family: 'Gabriela', serif;
+    }
+    .interest .subtitle{
+        font-size: 20px;}
+    .hobbies .subtitle {
+        font-size: 20px;} 
+}
+
+@media(min-width:320px){
+    .interest .subtitle{
+        font-size: 30px;
+    }
+      .hobbies .subtitle {
+        font-size: 30px;
+    }
+    .hobb-list {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    }
+    .hobb {
+        max-width: 100%; 
+        width: 100%;
+    }
+    .layer {
+        font-size: 5px; 
+    }
+    .layer h2 {
+        font-size: 20px; 
+        margin-bottom: 0px;
+    }
+    .layer p {
+        font-size: 10px; 
+    }
+    .layer a {
+        margin-top: 0;
+        font-size: 10px; 
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/*FOR EXTRA SMALL SCREENS*/
+@media(min-width:425px){
+    .interest .subtitle{
+        font-size: 40px;
+    }
+    /*div.scroll-container {
+        flex-direction: column; 
+        white-space: normal; 
+      }
+    div.scroll-container img {
+        width: 100%; 
+        max-width: none; 
+        height: auto; 
+    }*/
+    .hobbies .subtitle {
+        font-size:40px;
+    }
+    .hobb-list {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+    }
+    .layer h2 {
+        font-size: 20px; 
+        margin-bottom: 0px;
+    }
+    .layer p {
+        font-size: 12px; 
+    }
+    .layer a {
+        margin-top: 0;
+        font-size: 16px; 
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+/*FOR SMALL SCREENS*/
+@media(min-width:640px){
+    .interest .subtitle{
+        font-size: 50px;
+    }
+    .hobbies .subtitle {
+        font-size: 50px; 
+    }
+}
+
+/*IMAGE GALLERY RESPONSIVENESS*/
+@media(max-width:735px){
+    div.scroll-container {
+        flex-direction: column; 
+        white-space: normal; 
+      }
+    div.scroll-container img {
+        width: 100%; 
+        max-width: none; 
+        height: auto; 
+    }
+    .hobb-list {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 2fr)); 
+    }
+}
+
+/*FOR MEDIUM SCREENS*/
+@media(min-width:940px){
+    .hobb-list {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
+    }
+}
+
+/*FOR LARGE SCREENS*/
+@media(min-width:1024px){
+    .navbar .logo a{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .menu-list li a{
+        font-size: 25px;
+    }    
+    .interest .subtitle{
+        font-size: 60px;
+    }
+    .hobbies .subtitle{
+        font-size: 60px;
+    }
+    .hobb-list {
+    grid-template-columns: repeat(auto-fill, minmax(364px, 1fr)); 
+    }
+    .layer h2 {
+        font-weight: 500;
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: black;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    .layer p {
+        color: #ba4855;
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Gabriela', serif;
+        font-size: 15px;
+    }
+    .layer a {
+        margin-top: 20px;
+        color: #82313b;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 60px;
+        background: #fff;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        text-align: center;
+    }
+}
+
+/*FOR EXTRA LARGE SCREENS*/
+@media(min-width:1280px){
+    .menu-list li a{
+        font-size: 30px;
+    }
+    .interest .subtitle{
+        font-size: 70px;
+        font-weight: 800;
+    }
+    .hobbies .subtitle{
+        font-size: 70px;
+        font-weight: 800;
+    }
+    .hobb-list {
+        grid-template-columns: repeat(auto-fill, minmax(415px, 1fr)); 
+    }
+    
+    .layer h2 {
+        font-weight: 500;
+        font-size: 35px;
+        margin-bottom: 20px;
+        color: black;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    
+    .layer p {
+        color: #ba4855;
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Gabriela', serif;
+        font-size: 18px;
+    }
+    
+    .layer a {
+        margin-top: 20px;
+        color: #82313b;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 60px;
+        background: #fff;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        text-align: center;
     }
 }
