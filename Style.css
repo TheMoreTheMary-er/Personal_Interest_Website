@@ -296,13 +296,48 @@ div.gallery:hover {
 }
 
 .Yokaiinavbar .logo a{
-    color: #fcf1ef;
+    color: #c35ef1;
     font-size: 40px;
     font-weight: 600;
     text-decoration: none;
     font-family: 'Gabriela', serif;
 }
 
-.Yokaiinavbar .menu-list{
+.Yokaiinavbar .Yokaiimenu-list{
     display: inline-flex;
 }
+.Yokaiinavbar .Yokaiimenu-list{
+    display: inline-flex;
+}
+
+.Yokaiimenu-list li {
+    list-style: none
+}
+
+.Yokaiimenu-list li a{
+    color:#faf3f4;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.icon{
+    color: black;
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.icon.cancel-btn{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.Yokaiimenu-list li a:hover{
+    color:#9b4ae7;
+} 
+/* Interests Page */
