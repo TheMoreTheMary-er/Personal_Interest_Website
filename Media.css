@@ -1,3 +1,17 @@
+/*IMAGE GALLERY IN FAVORITES SECTION*/
+@media only screen and (max-width: 700px) {
+    .card {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .card{
+      width: 100%;
+    }
+  }
+
 /*FOR BANNER RESPONSIVENESS*/
 @media(max-width:515px){
     .banner{
@@ -56,13 +70,6 @@
 
 /*FOR EXTRA SMALL SCREENS*/
 @media(min-width:200px){
-    .navbar .logo a{
-        color: #fcf1ef;
-        font-size: 20px;
-        font-weight: 600;
-        text-decoration: none;
-        font-family: 'Gabriela', serif;
-    }
     .interest .subtitle{
         font-size: 20px;}
     .hobbies .subtitle {
@@ -147,6 +154,9 @@
     .hobbies .subtitle {
         font-size: 50px; 
     }
+    .hobb-list {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 2fr)); 
+    }
 }
 
 /*IMAGE GALLERY RESPONSIVENESS*/
@@ -188,7 +198,7 @@
         font-size: 60px;
     }
     .hobb-list {
-    grid-template-columns: repeat(auto-fill, minmax(364px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(390px, 1fr)); 
     }
     .layer h2 {
         font-weight: 500;
@@ -231,7 +241,7 @@
         font-weight: 800;
     }
     .hobb-list {
-        grid-template-columns: repeat(auto-fill, minmax(415px, 1fr)); 
+        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr)); 
     }
     
     .layer h2 {
