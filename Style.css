@@ -280,6 +280,13 @@ div.gallery:hover {
 
   /* Start of Masayuki's Stylesheet */
   
+  .Yokaiibanner{
+    height: 100vh;
+    background: url(Images/YokaiiBanner.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}   
   /* Navigation bar */
 .Yokaiinavbar{
     position: fixed;
@@ -341,3 +348,96 @@ div.gallery:hover {
     color:#9b4ae7;
 } 
 /* Interests Page */
+
+.Yokaiiinterest{
+    background-color: black;
+}
+
+/* Hobbies Page */
+
+.Yokaiihobbies{
+    background-color: black;
+}
+
+.Yokaiihobbies .subtitle {
+    font-size: 70px; 
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Gabriela', serif;
+}
+
+/* Favorites Page */
+
+.Yokaiifaves{
+    background-color: black;
+}
+
+div.Yokaiigallery:hover {
+    border: 1px solid #141413;
+  }
+  
+  div.Yokaiigallery img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  div.Yokaiidesc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(252, 252, 252);
+    
+  }
+
+  .Yokaiifaves .subtitle {
+    font-size: 70px; 
+    font-weight: 700;
+    color: #f7f7f8;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: 'Gabriela', serif;
+    
+}
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .Yokaiicard {
+    background-color: black;
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  .Yokaiiclearfix {
+    background-color: black;
+  }
+  .Yokaiiclearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+
+  /* Footer */
+
+  .Yokaiifooter {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 1%;
+  }
+
+  .Yokaiifooter  p{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Prata', serif;
+  }
