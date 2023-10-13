@@ -292,7 +292,7 @@ div.gallery:hover {
     position: fixed;
     z-index: 5;
     width: 100%;
-    padding: 10px 0;
+    padding: 1px 0;
     background:#302f2f;
     transition: all 0.3s ease;
 }
@@ -309,13 +309,15 @@ div.gallery:hover {
     text-decoration: none;
     font-family: 'Gabriela', serif;
 }
+.Yokaiinavbar .logo i{
+    color:#8c0010;
+    font-size: 40px;
+}
 
 .Yokaiinavbar .Yokaiimenu-list{
     display: inline-flex;
 }
-.Yokaiinavbar .Yokaiimenu-list{
-    display: inline-flex;
-}
+
 
 .Yokaiimenu-list li {
     list-style: none
@@ -331,14 +333,14 @@ div.gallery:hover {
     font-family: 'Bebas Neue', sans-serif;
 }
 
-.icon{
+.Yokaiiicon{
     color: black;
     font-size: 40px;
     cursor: pointer;
     display: none;
 }
 
-.icon.cancel-btn{
+.Yokaiiicon.Yokaiicancel-btn{
     position: absolute;
     right: 30px;
     top: 20px;
