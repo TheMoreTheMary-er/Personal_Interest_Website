@@ -5,7 +5,7 @@ body {
     font-family: 'Comfortaa', cursive;
     font-family: 'Gabriela', serif;
     font-family: 'Prata', serif;
-    background-color: white;
+    background-color: #fcf1ef;
 }
 
 .content{
@@ -30,7 +30,7 @@ body {
 }
 
 .navbar .logo a{
-    color: #fcf1ef;
+    color: white;
     font-size: 40px;
     font-weight: 600;
     text-decoration:none;
@@ -94,7 +94,7 @@ body {
 .interest .subtitle{
     font-size: 70px;
     font-weight: 700;
-    color: #5e616b;
+    color: black;
     text-align: center;
     margin-top: 1%;
     margin-bottom: 3%;
@@ -104,14 +104,14 @@ body {
 div.scroll-container {
     background-color: #cdd3d6;
     overflow: auto;
-    padding: 5px;
+    padding: 3px;
     white-space: nowrap;
     display: flex;
   }
   
   div.scroll-container img {
     max-width: 75%;
-    padding: 5px;
+    padding: 3px;
     height: auto;
   }
 
@@ -123,7 +123,7 @@ div.scroll-container {
 .hobbies .subtitle {
     font-size: 70px; 
     font-weight: 700;
-    color: #5e616b;
+    color: black;
     text-align: center;
     font-family: 'Gabriela', serif;
 }
@@ -217,7 +217,7 @@ div.scroll-container {
 .faves .subtitle {
     font-size: 70px; 
     font-weight: 700;
-    color: #5e616b;
+    color: black;
     text-align: center;
     margin-top: 1%;
     margin-bottom: 3%;
@@ -225,7 +225,7 @@ div.scroll-container {
 }
 
 div.gallery:hover {
-    border: 1px solid #e7d8c9;
+    border: 1px solid #8c0010;
   }
   
   div.gallery img {
@@ -237,6 +237,7 @@ div.gallery:hover {
     padding: 15px;
     text-align: center;
     font-family: 'Comfortaa', cursive;
+    color: #5e616b;
   }
   
   * {
