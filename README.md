@@ -1,6 +1,7 @@
 # Personal_Interest_Website
 <p align="center">
-Our second activity in our course Web Development, was created by Mary Angelene V. Balais and Masayuki R. Retuerma. We are tasked to design a unique website based on our individual interests and construct a static website that highlights our excitement and web development abilities using HTML, CSS, and JavaScript. And host our code on GitHub.com, manage version control using GitHub Desktop, and launch our website using Netlify. Our website focuses on subjects like our hobbies, interests, and favorites that we have.
+  <h1>SEE OUR DEPLOYED WEBSITE HERE: https://mary-masayuki-interest-web.netlify.app/</h1>
+  Our second activity in our course Web Development, was created by Mary Angelene V. Balais and Masayuki R. Retuerma. We are tasked to design a unique website based on our individual interests and construct a static website that highlights our excitement and web development abilities using HTML, CSS, and JavaScript. And host our code on GitHub.com, manage version control using GitHub Desktop, and launch our website using Netlify. Our website focuses on subjects like our hobbies, interests, and favorites that we have.
 
 The Objective of this activity is a chance to show our passion for web development and our skills in HTML, CSS, and JavaScript by creating a website that is both engaging and informative. Our goal is to create a website that reflects our interests and demonstrates our web development skills.
 
