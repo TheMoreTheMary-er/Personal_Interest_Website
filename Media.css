@@ -122,13 +122,17 @@
     .interest .subtitle{
         font-size: 20px;}
     .hobbies .subtitle {
-        font-size: 20px;} 
+        font-size: 20px;}
+    .faves .subtitle {
+        font-size: 20px;}  
     
         /* - - - - - - - - */
     .Yokaiiinterest .subtitle{
         font-size: 20px;}
     .Yokaiihobbies .subtitle {
-        font-size: 20px;} 
+        font-size: 20px;}
+    .Yokaiifaves .subtitle {
+        font-size: 20px;}  
 }
 
 @media(min-width:320px){
@@ -163,11 +167,17 @@
         width: 30px;
         height: 30px;
     }
+    .faves .subtitle {
+        font-size: 30px;
+    }
     /* - - - - - - */
     .Yokaiihobbies .subtitle {
         font-size: 30px;
     }
     .Yokaiiinterest .subtitle{
+        font-size: 30px;
+    }
+    .Yokaiifaves .subtitle{
         font-size: 30px;
     }
 }
@@ -177,15 +187,6 @@
     .interest .subtitle{
         font-size: 40px;
     }
-    /*div.scroll-container {
-        flex-direction: column; 
-        white-space: normal; 
-      }
-    div.scroll-container img {
-        width: 100%; 
-        max-width: none; 
-        height: auto; 
-    }*/
     .hobbies .subtitle {
         font-size:40px;
     }
@@ -206,12 +207,18 @@
         width: 30px;
         height: 30px;
     }
+    .faves .subtitle {
+        font-size:40px;
+    }
 
     /* - - - - - -- - - - - - */
     .Yokaiiinterest .subtitle{
         font-size: 40px;
     }
     .Yokaiihobbies .subtitle {
+        font-size:40px;
+    }
+    .Yokaiifaves .subtitle {
         font-size:40px;
     }
     
@@ -229,12 +236,18 @@
     .hobb-list {
         grid-template-columns: repeat(auto-fill, minmax(240px, 2fr)); 
     }
+    .faves .subtitle {
+        font-size: 50px; 
+    }
 
     /* - - - - - - - - - - */
     .Yokaiiinterest .subtitle{
         font-size: 50px;
     }
     .Yokaiihobbies .subtitle {
+        font-size: 50px; 
+    }
+    .Yokaiifaves .subtitle {
         font-size: 50px; 
     }
     
@@ -307,6 +320,9 @@
         border-radius: 50%;
         text-align: center;
     }
+    .hobbies .subtitle{
+        font-size: 60px;
+    }
     .MainPageBG{
         background-image: url("Images/HP\ BG.png") ;
     }
@@ -323,6 +339,9 @@
         font-size: 60px;
     }
     .Yokaiihobbies .subtitle{
+        font-size: 60px;
+    }
+    .Yokaiifaves .subtitle{
         font-size: 60px;
     }
 }
@@ -371,6 +390,10 @@
         border-radius: 50%;
         text-align: center;
     }
+    .faves .subtitle{
+        font-size: 70px;
+        font-weight: 800;
+    }
     /* - - - - - - - - - - - - - */
     .Yokaiimenu-list li a{
         font-size: 30px;
@@ -380,6 +403,10 @@
         font-weight: 800;
     }
     .Yokaiihobbies .subtitle{
+        font-size: 70px;
+        font-weight: 800;
+    }
+    .Yokaiifaves .subtitle{
         font-size: 70px;
         font-weight: 800;
     }
@@ -403,16 +430,17 @@
 }
 
 /* Mobile Screen Display */
-@media only screen and (min-width: 51px) and (max-width:600px ){
+@media only screen and (min-width: 50px) and (max-width:600px ){
     .index{
-        background-image: url("Images/PhoneMainPage.png");
-        background-repeat: no-repeat;
+        background: url(Images/PhoneMainPage.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
     }
     .MainButtons{
         bottom:10vh;
     }
-
-
 
 }
 
@@ -420,7 +448,10 @@
 @media only screen and (min-width: 601px) and (max-width:1279px ){
     .index{
         background-image: url("Images/TabletMainPage.png");
-        
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
     }
     .MainButtons{
         bottom: 15vh;
