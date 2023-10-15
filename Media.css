@@ -1,3 +1,6 @@
+*{
+    transition: all 500ms ease;
+}
 /*IMAGE GALLERY IN FAVORITES SECTION*/
 @media only screen and (max-width: 700px) {
     .card {
@@ -29,7 +32,7 @@
         height: 100vh;
     }
     .Yokaiibanner{
-        background: black;
+        background: url(Images/YokaiiBannerMobile.png) no-repeat;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -403,8 +406,12 @@
 @media only screen and (min-width: 51px) and (max-width:600px ){
     .index{
         background-image: url("Images/PhoneMainPage.png");
+        background-repeat: no-repeat;
     }
-    
+    .MainButtons{
+        bottom:10vh;
+    }
+
 
 
 }
@@ -415,11 +422,17 @@
         background-image: url("Images/TabletMainPage.png");
         
     }
+    .MainButtons{
+        bottom: 15vh;
+    }
 }
 
 @media only screen and (min-width: 1280px) {
     .index{
         background-image: url("Images/ScreenMainPage.png");
         background-repeat: no-repeat;
+    }
+    .MainButtons{
+        left: 50vh;
     }
 }
