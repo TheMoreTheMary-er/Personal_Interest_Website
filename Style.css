@@ -289,7 +289,7 @@ div.gallery:hover {
     background-attachment: fixed;
 }   
   /* Navigation bar */
-.Yokaiinavbar{
+#Yokaiinavbar{
     position: fixed;
     z-index: 5;
     width: 100%;
@@ -297,34 +297,34 @@ div.gallery:hover {
     background:#242323;
     transition: all 0.3s ease;
 }
-.Yokaiinavbar .content{
+#Yokaiinavbar .content{
     display: flex;
     align-items:center;
     justify-content: space-between;
 }
 
-.Yokaiinavbar .logo a{
+#Yokaiinavbar .logo a{
     color: #c35ef1;
     font-size: 40px;
     font-weight: 600;
     text-decoration: none;
     font-family: 'Gabriela', serif;
 }
-.Yokaiinavbar .logo i{
-    color:#8c0010;
+#Yokaiinavbar .logo i{
+    color:#e333f3;
     font-size: 40px;
 }
 
-.Yokaiinavbar .Yokaiimenu-list{
+#Yokaiinavbar.menu-list{
     display: inline-flex;
 }
 
 
-.Yokaiimenu-list li {
+#Yokaiinavbar.menu-list li {
     list-style: none
 }
 
-.Yokaiimenu-list li a{
+#Yokaiinavbar.menu-list li a{
     color:#faf3f4;
     font-size: 22px;
     font-weight: 500;
@@ -334,20 +334,20 @@ div.gallery:hover {
     font-family: 'Bebas Neue', sans-serif;
 }
 
-.Yokaiiicon{
+#Yokaiinavbar.icon{
     color: black;
     font-size: 40px;
     cursor: pointer;
     display: none;
 }
 
-.Yokaiiicon.Yokaiicancel-btn{
+#Yokaiinavbar.icon.cancel-btn{
     position: absolute;
     right: 30px;
     top: 20px;
 }
 
-.Yokaiimenu-list li a:hover{
+#Yokaiinavbar .menu-list li a:hover{
     color:#9b4ae7;
 } 
 /* Interests Page */

@@ -23,29 +23,22 @@ const menuBtn = document.querySelector(".menu-btn");
 const cancelBtn = document.querySelector(".cancel-btn");
 
 
-const Yokaiinavbar = document.querySelector(".Yokaiinavbar");
-const Yokaiimenu = document.querySelector(".Yokaiimenu-list");
-const YokaiimenuBtn = document.querySelector(".Yokaiimenu-btn");
-const YokaiicancelBtn = document.querySelector(".Yokaiicancel-btn");
 menuBtn.onclick= ()=>{
     menu.classList.add("active");
     menuBtn.classList.add("hide");
     body.classList.add("disabledScroll");
 
-    Yokaiimenu.classList.add("active");
-    YokaiimenuBtn.classList.add("hide");
+    
     }
 cancelBtn.onclick= ()=>{
     menu.classList.remove("active");
     menuBtn.classList.remove("hide");
     body.classList.remove("disabledScroll");
 
-    Yokaiimenu.classList.remove("active");
-    YokaiimenuBtn.classList.remove("hide");
     }
 window.onscroll= ()=>{
     this.scrollY > 20 ? navbar.classList.add("sticky"): navbar.classList.remove("sticky");
-    this.scrollY > 20 ? Yokaiinavbar.classList.add("sticky"): Yokaiinavbar.classList.remove("sticky");
+  
     }
 
    

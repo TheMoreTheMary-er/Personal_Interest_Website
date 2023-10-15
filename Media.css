@@ -85,13 +85,13 @@
     }
 
     /* - - - - - - - */
-    .Yokaiimenu-list {
+    #Yokaiinavbar .menu-list {
         margin-top: 20px;
     }
-    .Yokaiimenu-list li {
+    #Yokaiimenu-list li {
         margin: 10px 0;
     }
-    .Yokaiinavbar .Yokaiimenu-list{
+    #Yokaiinavbar .Yokaiimenu-list{
         position:fixed;
         display: none;
         top: 0;
@@ -105,14 +105,29 @@
         text-align: center;
         transition: all 0,3s ease;
     }
-    .Yokaiinavbar .Yokaiimenu-list.active{
+    #Yokaiinavbar .menu-list.active{
         left:0%
     }
-    .Yokaiinavbar .Yokaiimenu-list li {
+    #Yokaiinavbar .menu-list li {
         margin-top: 45px;
     }
-    .Yokaiinavbar .Yokaiimenu-list li a{
+    #Yokaiinavbar .menu-list li a{
         font-size: 23px;
+    }
+   
+    #Yokaiinavbar .menu-list{
+        position:fixed;
+        display: none;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        width: 50%;
+        max-width: 400px;
+        background: #292829;
+        display: block;
+        padding:40px 0;
+        text-align: center;
+        transition: all 0,3s ease;
     }
 
 }
