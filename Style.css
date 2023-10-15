@@ -294,7 +294,7 @@ div.gallery:hover {
     z-index: 5;
     width: 100%;
     padding: 1px 0;
-    background:#242323;
+    background:#242324;
     transition: all 0.3s ease;
 }
 #Yokaiinavbar .content{
@@ -334,17 +334,14 @@ div.gallery:hover {
     font-family: 'Bebas Neue', sans-serif;
 }
 
-#Yokaiinavbar.icon{
-    color: black;
-    font-size: 40px;
-    cursor: pointer;
-    display: none;
+#Yokaiinavbar .icon.menu-btn{
+    color: white;
 }
-
-#Yokaiinavbar.icon.cancel-btn{
+#Yokaiinavbar .icon.cancel-btn{
     position: absolute;
     right: 30px;
     top: 20px;
+    color: white;
 }
 
 #Yokaiinavbar .menu-list li a:hover{
