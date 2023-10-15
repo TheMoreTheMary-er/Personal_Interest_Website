@@ -355,6 +355,15 @@ div.gallery:hover {
 .Yokaiiinterest{
     background-color: black;
 }
+.Yokaiiinterest .subtitle{
+    font-size: 70px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    font-family: 'Gabriela', serif;
+}
 
 /* Hobbies Page */
 
